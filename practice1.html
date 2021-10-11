@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       name: <input type="text" name="username" placeholder="username"><br>
+       mobile Number:<input tyepe="Number" name="mobile" placeholder="mobileNumber"><br>
+       password:<input type="password" id="psd" name="password" placeholder="password" onclick="Number()"><br>
+       <button type="button" value="sign up">sign up</button>
+    </form>)
+    <script>
+        
+var mobileNumber="";
+function Number(){
+    if(mobileNumber==""){
+        return true;
+    } else if(mobileNumber<10){
+        alert("invalid Number");
+    } else if(mobileNumber>10){
+        alert("invalid Number");
+
+    }
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let base=prompt("please Enter The Base");
+        // let height=prompt("please Enter The Base");
+        // let area=(base*height)/2;
+        // document.write(area);
+        let a=prompt('Enter the value Of a');
+        let b=prompt('Enter the value Of b');
+        let c=prompt('Enter the value Of c');
+        
+        let s=(prompt(a)+prompt(b)+prompt(c))/2;
+        let temp=(s*(s-a)*(s-b)*(s-c));
+        
+        let Area=Math.sqrt(temp);
+        document.write(Area);
+    </script>
+</body>
+</html>
